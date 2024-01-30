@@ -1,0 +1,22 @@
+name: Convert Markdown Reports to PDF and DOCX
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+    convert_to_pdf:
+        name: Convert Markdown Reports to PDF
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: baileyjm02/markdown-to-pdf@v1
+              with:
+                input_dir: reports-md
+                output_dir: reports-pdf
+                build_html: false
+                table_of_contents: true
+            - uses: actions/upload-artifact@v3
+              with:
+                name: reports-pdf
+                path: reports-pdf

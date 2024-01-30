@@ -165,11 +165,8 @@ output
 /output/*
 
 # Reports
-/reports-md
 /reports-pdf
-reports-md
 reports-pdf
-/reports-md/*
 /reports-pdf/*
 
 # Keys
