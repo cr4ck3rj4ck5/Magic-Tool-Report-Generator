@@ -1,2 +1,7 @@
 https://github.com/BloodHoundAD/BloodHound
 https://github.com/byt3bl33d3r/CrackMapExec
+https://github.com/RhinoSecurityLabs/pacu
+https://github.com/sqlmapproject/sqlmap
+https://github.com/RustScan/RustScan
+https://github.com/smicallef/spiderfoot
+https://github.com/ffuf/ffuf
